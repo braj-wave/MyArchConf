@@ -36,48 +36,48 @@ sxhkd                     --Simple X hotkey daemon
 ## Programs ------------
 
 ## Networking / Internet
-bmon                    
-inetutils
-midori
-networkmanager
-networkmanager-openvpn
-bluez
-bluez-utils
-nethogs
-nm-connection-editor
-wget
+bmon                    		--Portable bandwidth monitor and rate estimator
+inetutils						--A collection of common network programs
+midori							@@--Browser
+networkmanager					--Network connection manager and user applications
+networkmanager-openvpn			--NetworkManager VPN plugin for OpenVPN
+bluez							--Daemons for the bluetooth protocol stack
+bluez-utils						--Development and debugging utilities for the bluetooth protocol stack
+nethogs							--	A net top tool which displays traffic used per process instead of per IP or interface
+nm-connection-editor			--NetworkManager GUI connection editor and widgets
+wget							--Network utility to retrieve files from the Web
 
 ## Printers
-cups
-gutenprint
+cups				--The CUPS Printing System - daemon package
+gutenprint			--Top quality printer drivers for POSIX systems
 
 ## Sound
-alsa-plugins
-alsa-tools
-alsa-utils
-pavucontrol
-pulseaudio
-pulseaudio-alsa
-pulseaudio-equalizer-ladspa
+alsa-plugins					--Additional ALSA plugins
+alsa-tools						--Advanced tools for certain sound cards
+alsa-utils						--Advanced Linux Sound Architecture - Utilities
+pavucontrol						--PulseAudio Volume Control
+pulseaudio						--A featureful, general-purpose sound server
+pulseaudio-alsa					--ALSA Configuration for PulseAudio
+pulseaudio-equalizer-ladspa 	--A 15-band equalizer for PulseAudio
 
 ## Files
-ranger
-pcmanfm
-thunar
-thunar-archive-plugin
-thunar-media-tags-plugin
-thunar-volman
-zip
-p7zip
-unzip
-unrar
-xarchiver
-xdg-user-dirs
+ranger						--Simple, vim-like file manager
+pcmanfm						--Extremely fast and lightweight file manager
+thunar						--Modern file manager for Xfce
+thunar-archive-plugin		--Create and extract archives in Thunar
+thunar-media-tags-plugin	--Adds special features for media files to the Thunar File Manager
+thunar-volman				--Automatic management of removeable devices in Thunar
+zip							--Compressor/archiver for creating and modifying zipfiles
+p7zip						--Command-line file archiver with high compression ratio
+unzip						--For extracting and viewing files in .zip archives
+unrar						--The RAR uncompression program
+xarchiver					--GTK+ frontend to various command line archivers
+xdg-user-dirs				--Manage user directories like ~/Desktop and ~/Music
 
 ## Images
-feh
-imagemagick
-viewnior
+feh							--Fast and light imlib2-based image viewer
+imagemagick					--An image viewing/manipulation program
+viewnior					--A simple, fast and elegant image viewer program
 
 ## Multimedia
 ffmpeg
