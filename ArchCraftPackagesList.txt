@@ -79,35 +79,36 @@ feh							--Fast and light imlib2-based image viewer
 imagemagick					--An image viewing/manipulation program
 viewnior					--A simple, fast and elegant image viewer program
 
+
 ## Multimedia
-ffmpeg
-ffmpegthumbnailer
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-mpc
-mpd
-mplayer
-ncmpcpp
-tumbler
+ffmpeg					--	Complete solution to record, convert and stream audio and video
+ffmpegthumbnailer		--Lightweight video thumbnailer that can be used by file managers.
+gst-libav				--Multimedia graph framework - libav plugin
+gst-plugins-bad			--Multimedia graph framework - bad plugins
+gst-plugins-base		--Multimedia graph framework - base plugins
+gst-plugins-good		--Multimedia graph framework - good plugins
+gst-plugins-ugly		--Multimedia graph framework - ugly plugins
+mpc						--Minimalist command line interface to MPD
+mpd						--Flexible, powerful, server-side application for playing music
+mplayer					--Media player for Linux
+ncmpcpp					--Almost exact clone of ncmpc with some new features
+tumbler					--D-Bus service for applications to request thumbnails
 
 ## Terminals
-alacritty
-xfce4-terminal
+alacritty				--A cross-platform, GPU-accelerated terminal emulator
+xfce4-terminal			--A modern terminal emulator primarily for the Xfce desktop environment
 
 ## Docs / Editors
-atril
-geany
-geany-plugins
-leafpad
-vim
+atril					--MATE document viewer
+geany					--Fast and lightweight IDE
+geany-plugins			--Plugins for Geany
+leafpad					--A notepad clone for GTK+ 2.0
+vim						--Vi Improved, a highly configurable, improved version of the vi text editor
 
 ## Fonts
-noto-fonts
-terminus-font
-ttf-dejavu
+noto-fonts				--Google Noto TTF fonts
+terminus-font			--Monospace bitmap font (for X11 and console)
+ttf-dejavu				--Font family based on the Bitstream Vera Fonts with a wider range of characters
 
 ## System
 dunst
