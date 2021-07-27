@@ -15,6 +15,9 @@ plank
 nitrogen
 rofi  {rofi-themes}
 thundar
+ksuperkey
+base-devel
+
 
 
  
