@@ -9,34 +9,34 @@ xorg-xrdb               --X server resource database utility
 xorg-xset               --User preference utility for X	
 
 ## Touchpad and Mouse
-xorg-xinput
-xf86-input-libinput
+xorg-xinput               --Small commandline tool to configure devices
+xf86-input-libinput       --Generic input driver for the X.Org server based on libinput
 
 ## GPU Drivers (Intel/AMD/VM)
-xf86-video-fbdev
-xf86-video-vesa
-xf86-video-intel
-xf86-video-amdgpu
-xf86-video-ati
+xf86-video-fbdev      --X.org framebuffer video driver
+xf86-video-vesa       --X.org vesa video driver
+xf86-video-intel      --X.org Intel i810/i830/i915/945G/G965+ video drivers
+xf86-video-amdgpu     --X.org amdgpu video driver
+xf86-video-ati        --X.org ati video driver
 
 ## GPU Drivers (Nvidia)
-xf86-video-nouveau
-nvidia
-nvidia-utils
-nvidia-settings
+xf86-video-nouveau      --Open Source 3D acceleration driver for nVidia cards
+nvidia                  --NVIDIA drivers for linux
+nvidia-utils            --NVIDIA drivers utilities
+nvidia-settings         --Tool for configuring the NVIDIA graphics driver
 
 ## Openbox
-obconf
-openbox
+obconf                  --A GTK+ based configuration tool for the Openbox windowmanager
+openbox                 --Highly configurable and lightweight X11 window manager
 
 ## Bspwm
-bspwm
-sxhkd
+bspwm                     --Tiling window manager based on binary space partitioning
+sxhkd                     --Simple X hotkey daemon
 
 ## Programs ------------
 
 ## Networking / Internet
-bmon
+bmon                    
 inetutils
 midori
 networkmanager
