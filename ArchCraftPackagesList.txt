@@ -1,12 +1,12 @@
 ## Xorg Packages
-xorg-server
-xorg-xbacklight
-xorg-fonts-misc
-xorg-xfd
-xorg-xkill
-xorg-xrandr
-xorg-xrdb
-xorg-xset
+xorg-server             --Xorg X server {Display_Server}
+xorg-xbacklight         --RandR-based backlight control application
+xorg-fonts-misc         --X.org misc fonts
+xorg-xfd                --Displays all the characters in a font using either the X11 core protocol or libXft2
+xorg-xkill              --Kill a client by its X resource
+xorg-xrandr             --Primitive command line interface to RandR extension
+xorg-xrdb               --X server resource database utility
+xorg-xset               --User preference utility for X	
 
 ## Touchpad and Mouse
 xorg-xinput
