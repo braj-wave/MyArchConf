@@ -110,14 +110,16 @@ noto-fonts				--Google Noto TTF fonts
 terminus-font			--Monospace bitmap font (for X11 and console)
 ttf-dejavu				--Font family based on the Bitstream Vera Fonts with a wider range of characters
 
+
 ## System
-dunst
-lxdm-gtk3
-polkit
-powertop
-htop
-ncdu
-autoconf
+dunst					--Customizable and lightweight notification-daemon
+lxdm-gtk3			{& lxdm }	--Lightweight X11 Display Manager (GTK+ 3 version)
+polkit					--Application development toolkit for controlling system-wide privileges
+powertop				--A tool to diagnose issues with power consumption and power management
+htop					--Interactive process viewer
+ncdu					--	Disk usage analyzer with an ncurses interface
+-------
+autoconf				
 automake
 binutils
 bison
@@ -127,39 +129,40 @@ pkg-config
 make
 calc
 gcc
-jq
-gparted
-gvfs
-gvfs-mtp
-gvfs-afc
-gvfs-gphoto2
-gvfs-smb
-gvfs-google
-sshfs
-udisks2
-gtk-engine-murrine
-pv
-xmlstarlet
-xsettingsd
-yad
-xclip
+-------
+jq						--Command-line JSON processor
+gparted					--A Partition Magic clone, frontend to GNU Parted
+gvfs					--Virtual filesystem implementation for GIO
+gvfs-mtp				--Virtual filesystem implementation for GIO (MTP backend; Android, media player)
+gvfs-afc				--Virtual filesystem implementation for GIO (AFC backend; Apple mobile devices)
+gvfs-gphoto2			--Virtual filesystem implementation for GIO (gphoto2 backend; PTP camera, MTP media player)
+gvfs-smb				--Virtual filesystem implementation for GIO (SMB/CIFS backend; Windows client)
+gvfs-google				--Virtual filesystem implementation for GIO (Google Drive backend)
+sshfs					--FUSE client based on the SSH File Transfer Protocol
+udisks2					--	Disk Management Service, version 2
+gtk-engine-murrine		--GTK2 engine to make your desktop look like a 'murrina', an italian word meaning the art glass works done by Venicians glass blowers.
+pv						--A terminal-based tool for monitoring the progress of data through a pipeline.
+xmlstarlet				--A set of tools to transform, query, validate, and edit XML documents
+xsettingsd				--Provides settings to X11 applications via the XSETTINGS specification
+yad						--A fork of zenity - display graphical dialogs from shell scripts or command line
+xclip					--Command line interface to the X11 clipboard
 
 ## Utilities
-baobab
-fortune-mod
-meld
-lxappearance
-nitrogen
-plank
-rofi
-scrot
-xfce4-power-manager
-xfce4-settings
+baobab					--	A graphical directory tree analyzer
+fortune-mod				--The Fortune Cookie Program from BSD games
+meld					--Compare files, directories and working copies
+lxappearance			--Feature-rich GTK+ theme switcher of the LXDE Desktop
+nitrogen				--Background browser and setter for X windows
+plank					--Elegant, simple, clean dock
+rofi					--A window switcher, application launcher and dmenu replacement
+scrot					--Simple command-line screenshot utility for X
+xfce4-power-manager		--Power manager for the Xfce desktop
+xfce4-settings			--Settings manager of the Xfce desktop
 
 ## QT Style
-kvantum-qt5
-kvantum-theme-adapta
-qt5ct
+kvantum-qt5				--SVG-based theme engine for Qt5 (including config tool and extra themes)
+kvantum-theme-adapta	{Extra Custom}--adapta theme 
+qt5ct					--Qt5 Configuration Utility
 
 ## Calamares
 boost
@@ -178,9 +181,9 @@ xf86-input-vmmouse
 xf86-video-vmware
 
 ## grub
-os-prober
-lsb-release
-archcraft-grub
+os-prober			--Utility to detect other OSes on a set of drives
+lsb-release			--LSB version query program
+archcraft-grub		@@@@@
 
 ## Archcraft Packages
 archcraft-skeleton
@@ -203,23 +206,23 @@ lxdm-theme-archcraft
 grub2-theme-default
 
 ## AUR Packages
-betterlockscreen
-blight
-cava
-colorpicker
-compton-tryone-git
-downgrade
-i3lock-color
-ksuperkey
-networkmanager-dmenu-git
-obmenu-generator
-perl-linux-desktopfiles
-plymouth
-polybar
-pyroom
-timeshift
-toilet
-tty-clock
-unimatrix-git
-xfce-polkit
-yay	
+betterlockscreen				--A simple, minimal lockscreen
+blight							--Basic general backlight utility written in python
+cava							--Console-based Audio Visualizer for Alsa
+colorpicker						--Click on a pixel on your screen and print its color value in RGB. Written for X11.
+compton-tryone-git				--tryone's patched fork of compton with kawase blur
+downgrade						--Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
+i3lock-color					--An improved screenlocker based upon XCB and PAM with color configuration support
+ksuperkey						--Allows you to open the application launcher in KDE Plasma Desktop using the Super key
+networkmanager-dmenu-git		--Control NetworkManager via dmenu
+obmenu-generator				--A fast pipe/static menu generator for the Openbox Window Manager (with icons support).
+perl-linux-desktopfiles			--Linux::DesktopFiles - a very fast Perl module for parsing the Linux desktop files.
+plymouth						--A graphical boot splash screen with kernel mode-setting support
+polybar							--A fast and easy-to-use status bar
+pyroom							--A distraction-free text editor
+timeshift						--A system restore utility for Linux
+toilet							--free replacement for the FIGlet utility.
+tty-clock						--Digital clock in ncurses
+unimatrix-git					--Python script to simulate the display from "The Matrix" in terminal. Uses half-width katakana unicode characters by default, but can use custom character sets.
+xfce-polkit						--A simple PolicyKit authentication agent for XFCE
+yay								--Yet another yogurt. Pacman wrapper and AUR helper written in go.
