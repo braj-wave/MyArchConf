@@ -8,7 +8,7 @@
 #-------------------------------------------------------------------------
 
 echo
-echo "INSTALLING mplayer"
+echo "INSTALLING Openbox Display"
 echo
 
 PKGS=(
